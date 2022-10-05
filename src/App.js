@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 import images from './assets/images';
 import './App.css';
@@ -8,7 +9,7 @@ function App() {
         <div className="App">
             <div className="main">
                 <div className="mobile-menu">
-                    <FontAwesomeIcon className="menu-icon" />
+                    <FontAwesomeIcon className="icon-menu" icon={faBars} />
                 </div>
                 <nav className="nav">
                     <li className="nav-header">Home</li>
